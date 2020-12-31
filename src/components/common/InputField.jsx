@@ -13,6 +13,7 @@ const InputField = ({ label, name, type, data, errors, ...rest }) => {
 
 InputField.defaultProps = {
   type: "text",
+  errors: {},
 };
 
 export default InputField;

@@ -1,10 +1,10 @@
 export default function Validator(name, value) {
   let newError = null;
   if (name === "name" && !value.trim()) {
-    newError = "name cann't be empty";
+    newError = "name can't be empty";
   }
   if (name === "email" && !value.trim()) {
-    newError = "email cann't be empty";
+    newError = "email can't be empty";
   }
 
   if (name === "gender" && (value === "" || value === "Choose Your Gender")) {
@@ -19,7 +19,7 @@ export default function Validator(name, value) {
   }
 
   if (name === "password" && !value.trim()) {
-    newError = "password cann't be empty";
+    newError = "password can't be empty";
   }
 
   return newError;

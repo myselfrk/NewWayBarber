@@ -48,7 +48,7 @@ const SignUp = () => {
   }
 
   return (
-    <Form onSubmit={handleSubmit} className="col-4 mx-auto mt-5">
+    <Form onSubmit={handleSubmit} className="col-4 mx-auto form">
       <InputField
         label="Name"
         name="name"
@@ -92,7 +92,7 @@ const SignUp = () => {
         onChange={handleChange}
         errors={errors}
       />
-      <Button>SignUp</Button>
+      <Button color="primary">SignUp</Button>
     </Form>
   );
 };

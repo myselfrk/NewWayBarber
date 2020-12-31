@@ -22,7 +22,7 @@ const NavigationBar = () => {
           className="collapse navbar-collapse justify-content-end"
           id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <NavLink className="nav-link" aria-current="page" to="/login">
+            <NavLink className="nav-link" to="/login">
               Login
             </NavLink>
             <NavLink className="nav-link" to="/signup">
@@ -32,28 +32,6 @@ const NavigationBar = () => {
         </div>
       </div>
     </nav>
-    // <div>
-    //   <Navbar color="dark" dark expand="md">
-    //     <Link to="/">
-    //       <NavbarBrand>NewWayBarber</NavbarBrand>
-    //     </Link>
-    //     <NavbarToggler onClick={toggle} />
-    //     <Collapse isOpen={isOpen} navbar>
-    //       <Nav>
-    //         <NavItem>
-    //           <Link to="/login">
-    //             <NavLink>Login</NavLink>
-    //           </Link>
-    //         </NavItem>
-    //         <NavItem>
-    //           <Link to="/signup">
-    //             <NavLink>Signup</NavLink>
-    //           </Link>
-    //         </NavItem>
-    //       </Nav>
-    //     </Collapse>
-    //   </Navbar>
-    // </div>
   );
 };
 

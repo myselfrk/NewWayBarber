@@ -44,7 +44,7 @@ const LogIn = () => {
   }
 
   return (
-    <Form onSubmit={handleSubmit} className="col-4 mx-auto mt-5">
+    <Form onSubmit={handleSubmit} className="col-4 mx-auto form">
       <InputField
         label="Email"
         name="email"
@@ -63,7 +63,7 @@ const LogIn = () => {
         errors={errors}
         data={userData}
       />
-      <Button>Submit</Button>
+      <Button color="primary">LogIn</Button>
     </Form>
   );
 };
